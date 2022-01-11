@@ -44,7 +44,17 @@ nav ul li {
 }
 
 .container{
-    min-height: 75vh;
+    min-height: 68vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 33px;
+    background-image: url('back\ gg.png');
+
 }
 
 .bottom{
@@ -56,9 +66,47 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 }
 
+.icons{
+    margin-top: 15px;
+}
+.icons{
+    cursor: pointer;
+}
 #myProgressBar{
     width: 80vw;
     text-align: center;
 }
+.songItemContainer {
+    margin-top: 45px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color:black;
+    /* width: 100%; */
+    color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px ;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
