@@ -42,3 +42,23 @@ nav ul li {
     color: rgb(67, 247, 82);
 
 }
+
+.container{
+    min-height: 75vh;
+}
+
+.bottom{
+    position:sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+}
