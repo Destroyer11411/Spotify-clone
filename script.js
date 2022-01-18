@@ -10,7 +10,7 @@ let masterSongName = document.getElementById('masterSongName')
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    { songName: "State of Grace", filePath: "songs/1.mp3", coverPath: "cover/1.jpg" },
+    { songName: "Demons", filePath: "songs/1.mp3", coverPath: "cover/1.jpg" },
     { songName: "Red", filePath: "songs/2.mp3", coverPath: "cover/2.jpg" },
     { songName: "Counting Stars", filePath: "songs/3.mp3", coverPath: "cover/3.jpg" },
     { songName: "Blinding lights", filePath: "songs/4.mp3", coverPath: "cover/4.jpg" },
@@ -18,7 +18,7 @@ let songs = [
     { songName: "Overpass Graffiti", filePath: "songs/6.mp3", coverPath: "cover/6.jpg" },
     { songName: "There's nothing holding me back", filePath: "songs/7.mp3", coverPath: "cover/7.jpg" },
     { songName: "Message in a bottle", filePath: "songs/8.mp3", coverPath: "cover/8.jpg" },
-    { songName: "Castle on the hill", filePath: "songs/9.mp3", coverPath: "cover/9.jpg" },
+    { songName: "Perfect", filePath: "songs/9.mp3", coverPath: "cover/9.jpg" },
     { songName: "Dusk Till Dawn", filePath: "songs/10.mp3", coverPath: "cover/10.jpg" },
 ]
 
