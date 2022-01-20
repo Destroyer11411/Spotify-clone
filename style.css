@@ -57,6 +57,29 @@ nav ul li {
 
 }
 
+.containerr{
+    min-height: 68vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    /* display: flex;
+    align-items: unset; */
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 33px;
+    /*background-image: url('back\ gg.png');*/
+
+}
+
+.heading{
+    padding: 30px 10px;
+}
+
+.lists{
+    padding: 20px 10px;
+}
+
 .bottom{
     position:sticky;
      height: 90px;    /* removed the scrolling */
