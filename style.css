@@ -99,6 +99,11 @@ nav ul li {
 .icons{
     cursor: pointer;
 }
+.iconss{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
 #myProgressBar{
     width: 80vw;
     text-align: center;
